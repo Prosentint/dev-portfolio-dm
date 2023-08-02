@@ -4,46 +4,75 @@ h1 {
     color:#13293d;
     background-color: aqua;
     padding: 1%;
-  }
-  
-  /* Change header 2 size to 180%*/
-  h2 {
-    font-size: 180%;
-  }
-  
-  /* Change header 3 size to 150%  */
-  h3 {
+}
+
+/* Change header 2 size to 180%*/
+h2 {
+    font-size: 220%;
+    color:#13293d;
+}
+
+/* Change header 3 size to 150%  */
+h3 {
     font-size: 150%;
-  }
+}
 
     /* Give the header color */
 header {
     padding: 40px;
     background: #13293d;
-  }
-  
-  /* Positions the navbar and Header text*/
-  .navbar {
+}
+
+/* Positions the navbar and Header text*/
+.navbar {
     display: flex;
     /* Align the child elements with space between them horizontally*/
     justify-content: space-between;
-  }
+}
 
-  /* Positions the navbar items*/
-  .navbar ul {
+/* Positions the navbar items*/
+.navbar ul {
     display: flex;
     /* Align the child elements to the right side of the parent */
     justify-content: flex-end;
     /* Align the child elements in the vertical center */
     align-items: center;
-  }
-  
-  /* Styles the text of the navbar items and their underlines*/
-  .navbar ul li a {
+}
+
+/* Styles the text of the navbar items and their underlines*/
+.navbar ul li a {
     color:aqua;
     padding: 5px 15px;
     text-decoration:underline, aqua;
     font-weight: bold;
     text-underline-offset: 10px;
     text-align: center;
-  }
+}
+
+/* Container template for sections in main*/
+.mediaContainer {
+    display: flex;
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+/* Diplays media on the left portion of container*/
+.mediaLeft {
+    flex: 0;
+    padding:2%;
+}
+
+/* Adds padding to each paragraph in the right side of container*/
+.mediaRight p {
+    padding: 1%;
+}
+
+/* Diplays media on the right portion of container*/
+.mediaRight {
+    flex: 3;
+    position: relative;
+    padding-left: 2%;
+    border-left: 5px solid aqua;
+}
+
