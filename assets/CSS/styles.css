@@ -10,6 +10,7 @@ h1 {
 h2 {
     font-size: 220%;
     color:#13293d;
+    text-align: right;
 }
 
 /* Change header 3 size to 150%  */
@@ -52,7 +53,7 @@ header {
 /* Container template for sections in main*/
 .mediaContainer {
     display: flex;
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 50px auto;
     padding: 20px;
 }
@@ -60,7 +61,9 @@ header {
 /* Diplays media on the left portion of container*/
 .mediaLeft {
     flex: 0;
-    padding:2%;
+    padding: 1%;
+    max-width: 200px;
+    min-width: 165px;
 }
 
 /* Adds padding to each paragraph in the right side of container*/
@@ -70,9 +73,34 @@ header {
 
 /* Diplays media on the right portion of container*/
 .mediaRight {
+    display: inline-block;
     flex: 3;
     position: relative;
     padding-left: 2%;
-    border-left: 5px solid aqua;
+    border-left: 5px solid #13293d;;
 }
 
+
+.workItems {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.item {
+    flex: 0 0 48%; /* Takes up half of the container width */
+    padding: 20px;
+    margin: 1%;
+    box-sizing: border-box;
+    border: 4px solid aqua;
+    background-color: black;
+}
+
+.item1 {
+    flex-basis: 98%; /* Takes up the entire row */
+}
+
+@media screen and (max-width: 768px) {
+    .item {
+        flex: 0 0 100%; /* Each item takes up the entire row on smaller screens */
+    }
+}
