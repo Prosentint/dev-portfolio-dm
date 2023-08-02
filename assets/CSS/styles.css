@@ -50,6 +50,51 @@ header {
     text-align: center;
 }
 
+/* Sizes the entire banner section*/
+.banner {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+/* Sizes the banner image*/
+.bannerImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Centers the div the headshot is in and makes it a circle*/
+.headshotBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+/* Sizes the headshot within the banner*/
+.headshot {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Styles the text on the banner and positions it in the bottom right corner of the banner*/
+.subtitle {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 5px;
+    color:#13293d;
+}
+
 /* Container template for sections in main*/
 .mediaContainer {
     display: flex;
@@ -80,12 +125,13 @@ header {
     border-left: 5px solid #13293d;;
 }
 
-
+/* Displays the items in the work section in a flexbox */
 .workItems {
     display: flex;
     flex-wrap: wrap;
 }
   
+/* Template for children in the work section flexbox*/
 .item {
     flex: 0 0 48%; /* Takes up half of the container width */
     padding: 20px;
@@ -95,12 +141,22 @@ header {
     background-color: black;
 }
 
+/* First child in the work section flexbox*/
 .item1 {
     flex-basis: 98%; /* Takes up the entire row */
 }
 
+/* Changes made at tablet window size */
 @media screen and (max-width: 768px) {
     .item {
         flex: 0 0 100%; /* Each item takes up the entire row on smaller screens */
     }
+    .banner {
+        position: relative;
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+    }
 }
+
+
