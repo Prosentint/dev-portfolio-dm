@@ -45,6 +45,7 @@ header {
     justify-content: flex-end;
     /* Align the child elements in the vertical center */
     align-items: center;
+    flex-shrink: 1;
 }
 
 /* Styles the text of the navbar items and their underlines*/
@@ -185,6 +186,7 @@ header {
     display: flex;
     list-style: none;
     padding: 0;
+    flex-wrap: wrap;
 }
 
 /* Positions contact items */
@@ -237,6 +239,7 @@ header {
 
     .navbar ul li a {
         font-size: 10px;
+        padding-top: 10px;
     }
 
     h1 {
@@ -250,4 +253,11 @@ header {
     
 }
 
+  /* Changes made at small window size */
+  @media screen and (max-width: 500px) {
+    .navbar ul li a {
+        font-size: 8px;
+        padding: 5px;
+      }
+  }
 
