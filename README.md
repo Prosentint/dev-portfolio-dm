@@ -2,7 +2,8 @@
 
 ## Description
 
-The
+The starting template for a web developer portfolio that will feature completed projects, link to a resume, and displays my information aswell as contact information.
+
 
 ## Installation
 
@@ -10,9 +11,9 @@ GitHub Pages link:
 
 ## Usage
 
+Can be updated to include future project or can be used as a template for other portfolios. The nav bar links to parts of the web page and the contact bar has some functionality to send to my GitHub or send me an email. Only the pre work study guide project currently works as a link to a published project while the rest serve as place holders but all feature hover functionality.
 
-
-![Screenshot of Page]()
+![Screenshot of Page](./assets/images/screenshot.JPG)
 
 ## Credits
 
