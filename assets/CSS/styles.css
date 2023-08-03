@@ -39,7 +39,7 @@ header {
 }
 
 /* Positions the navbar items*/
-.navbar ul {
+.navbar ul{
     display: flex;
     /* Align the child elements to the right side of the parent */
     justify-content: flex-end;
@@ -48,10 +48,10 @@ header {
 }
 
 /* Styles the text of the navbar items and their underlines*/
-.navbar ul li a {
+.navbar ul li a{
     color:var(--secondary);
     padding: 5px 15px;
-    text-decoration:underline, aqua;
+    text-decoration:underline;
     font-weight: bold;
     text-underline-offset: 10px;
     text-align: center;
@@ -180,6 +180,38 @@ header {
     font-weight: bold;
 }
 
+.contactbar{
+    align-items: center;
+}
+
+.contactbar ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.contactbar ul li{
+    flex: 1;
+    text-align: center;
+}
+
+.contactbar a {
+    top:50%;
+    position: relative;
+    display: block;
+    text-decoration:underline;
+    color: var(--primary);
+    padding: 15px;
+    font-weight: bold;
+    text-underline-offset: 10px;
+    font-size: 18px;
+  }
+
+  @media screen and (max-width: 1200px) {
+    .contactbar a {
+        top:0%;
+      }
+  }
   
 
 /* Changes made at tablet window size */
@@ -204,8 +236,18 @@ header {
     }
 
     .navbar ul li a {
-        font-size: 12px;
+        font-size: 10px;
     }
+
+    h1 {
+        font-size: 20px;
+    }
+    
+    /* Change header 2 size to 180%*/
+    h2 {
+        font-size: 17px;
+    }
+    
 }
 
 
