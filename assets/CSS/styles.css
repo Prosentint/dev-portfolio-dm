@@ -161,7 +161,7 @@ header {
 }
   
 /* removes filter when item is hovered */
-.workImg:hover {
+.item:hover .workImg{
     filter: none;
 }
 
