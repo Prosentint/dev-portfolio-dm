@@ -32,7 +32,7 @@ header {
 }
 
 /* Positions the navbar and Header text*/
-.navbar {
+.navbar{
     display: flex;
     /* Align the child elements with space between them horizontally*/
     justify-content: space-between;
@@ -150,6 +150,7 @@ header {
 /* First child in the work section flexbox*/
 .item1 {
     flex-basis: 98%; /* Takes up the entire row */
+    height: 400px;
 }
 
 /* Makes the images within each work section child take up its entire space and adds filter to image*/
@@ -200,6 +201,10 @@ header {
 
     .mediaRight {
         font-size:2vw;
+    }
+
+    .navbar ul li a {
+        font-size: 12px;
     }
 }
 
