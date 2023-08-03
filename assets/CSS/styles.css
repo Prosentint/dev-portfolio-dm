@@ -180,21 +180,20 @@ header {
     font-weight: bold;
 }
 
-.contactbar{
-    align-items: center;
-}
-
+/* Displays contact bar in a flex box */
 .contactbar ul{
     display: flex;
     list-style: none;
     padding: 0;
 }
 
+/* Positions contact items */
 .contactbar ul li{
     flex: 1;
     text-align: center;
 }
 
+/* Styles contact bar text */
 .contactbar a {
     top:50%;
     position: relative;
@@ -207,6 +206,7 @@ header {
     font-size: 18px;
   }
 
+  /* Changes made at small window size */
   @media screen and (max-width: 1200px) {
     .contactbar a {
         top:0%;
@@ -214,7 +214,7 @@ header {
   }
   
 
-/* Changes made at tablet window size */
+/* Changes made at smaller window size */
 @media screen and (max-width: 768px) {
     .item {
         flex: 1 0 100%; /* Each item takes up the entire row on smaller screens */
