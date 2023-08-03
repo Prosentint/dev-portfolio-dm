@@ -7,7 +7,7 @@ The starting template for a web developer portfolio that will feature completed 
 
 ## Installation
 
-GitHub Pages link: 
+GitHub Pages link: https://prosentint.github.io/dev-portfolio-dm/
 
 ## Usage
 
