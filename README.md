@@ -2,17 +2,17 @@
 
 ## Description
 
-This begam as a mock up for the design of a fake Digital Marketing Company Horiseon with minil functionality and no semenatic HTML. It was updated to feature much more accessible CSS meeting a higher standard of SEO accessibilty scores. To achieve this images were givern alt tags, the title was changed to be more descriptive and divs were replaced with significantly more semantic html tags.
+The
 
 ## Installation
 
-GitHub Pages link: https://prosentint.github.io/horiseon-webpage-accessibilty-challenge/
+GitHub Pages link: 
 
 ## Usage
 
-Has no functionallity but scores a 93 on Google's lighthouse extension and provides an example for semenativ html tags.
 
-![Screenshot of Page](assets/images/01-html-css-git-homework-demo.png)
+
+![Screenshot of Page]()
 
 ## Credits
 
