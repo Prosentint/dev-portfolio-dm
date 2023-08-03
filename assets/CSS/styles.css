@@ -140,6 +140,7 @@ header {
 /* Template for children in the work section flexbox*/
 .item {
     flex: 0 0 48%; /* Takes up half of the container width */
+    position: relative;
     margin: 1%;
     box-sizing: border-box;
     border: 4px solid var(--secondary);
@@ -168,8 +169,8 @@ header {
 /* Title of projects in work section */
 .workTitle{
     position: absolute;
-    top: 50%;
-    left: 10px;
+    bottom: 40px;
+    left: 0px;
     background-color: var(--secondary);
     color: var(--primary);
     padding: 5px;
@@ -184,15 +185,17 @@ header {
 @media screen and (max-width: 768px) {
     .item {
         flex: 1 0 100%; /* Each item takes up the entire row on smaller screens */
+        height: 250px;
+    }
+
+    .item1{
+        height: 350px;
     }
     .banner {
         position: relative;
         width: 100%;
         height: 400px;
         overflow: hidden;
-    }
-    .workTitle{
-        top: 35%;
     }
 
     .mediaRight {
